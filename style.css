@@ -1,0 +1,234 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+    }
+
+/*----------------------------------------------------------MAIN CODE INDEX--------------------------------------------------------------------*/
+.wrapper
+{
+    overflow: hidden;
+    height: 720px;
+    width :1535px;
+  /*  background-color: red; */
+
+}
+header
+{
+    height:150px;
+    width:1535px;
+ /*   background-color: black; */
+    padding: 10px;
+}
+section
+{
+    height:450px;
+    width:1535px;
+}
+footer
+{
+    margin-left: 90px;
+    color: ghostwhite;
+    font-size: 20px;
+    height:100px;
+    width:1535px;
+/*    background-color: greenyellow; */
+}
+.home_img{
+    background-image: url('home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo
+{
+    float: left;
+    padding-left: 20px;
+}
+.logo img
+{
+     padding-left: 40px;
+}
+nav
+{
+    float: right;
+    list-style: none;
+    word-spacing: 30px;
+    padding: 50px;
+}
+nav ul li 
+{
+    display: inline-block;
+    line-height: 10px;
+    list-style: none;
+}
+nav ul li a
+{
+    font-size: 25px;
+    color: lightblue;  
+    text-decoration: none; 
+    transition: 0.3s all;
+}
+nav ul li a:hover
+{
+    color: blue;
+}
+
+
+.box
+{
+    text-align: center;
+    height: 370px;
+    width: 450px;
+    background-color: black;
+    margin: 20px auto;
+    opacity: .8;
+    color: ghostwhite;
+    padding: 20px;
+}
+.search-txt{
+    font-size: 20px;
+}
+/*----------------------------------------------------- user login ------------------------------------------------*/
+
+.logwrapper
+{
+    overflow: hidden;
+    overflow-y: hidden;
+    height: 720px;
+    width: 1535px;
+}
+.login_img{
+    background-image: url('login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-top: 0px;
+    height: 720px;
+    width: 1535px;
+}
+.box1
+{
+    text-align: center;
+    height: 500px;
+    width: 450px;
+    background-color: black;
+    margin: 20px auto;
+    opacity: .7;
+    color: ghostwhite;
+    padding: 20px;
+}
+/*-------------------------------------------------- registration --------------------------------------------------*/
+.reg_img{
+    background-image: url('reg_img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-top: 0px;
+    height: 720px;
+    width: 1535px;
+}
+.box2
+{
+    text-align: center;
+    height: 600px;
+    width: 800px;
+    background-color: black;
+    margin: 20px auto;
+    margin-top: -30px;
+    margin-left: 500px;
+    opacity: .7;
+    color: ghostwhite;
+    padding: 20px;
+}
